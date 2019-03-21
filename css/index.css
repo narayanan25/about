@@ -4,7 +4,7 @@
 
 
 body{
-background: #000000;
+background: #ffffff;
 margin: 0px;
 }
 .title{
@@ -32,18 +32,21 @@ body {
   height: 2000px;
 }
 
-
+#span{
+  font-size: 44px;
+  font-weight: 100;
+}
 #expandable {
   text-align: center !important;
   position: fixed;
   font-size: 6vw;
-line-height: 5vw;
+line-height: 6vw;
 text-align: center;
 color: #fff;
 font-family: 'Roboto', sans-serif;
-margin-left: 430px;
+margin-left: 35%;
 padding-left: 20px;
-padding-top: 230px;
+padding-top: 20%;
 display: block;
 /* font-size: 2em; */
 
@@ -59,14 +62,19 @@ p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 100;
+  padding-top: 27%;
 }
 
 h3 {
   color: blue;
 }
 
+.first{
+  background-color: black;
+}
+
 .main{
-  background-color: white;
+  background: white;
 }
 
 .main p{
@@ -74,15 +82,42 @@ h3 {
 }
 
 /* //navbar// */
-.navbar ul {
+
+.main-nav{
+
+
+    top: 0px;
+    height:8.5%;
+    position: fixed;
+    width: 100%;
+
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+
   overflow: hidden;
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
+
+}
+
+
+.navbar ul {
+  right: 10px;
+    position: fixed;
+    top: 60%;
+  list-style-type: none;
+  opacity: 1;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  float: right;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .navbar li {
