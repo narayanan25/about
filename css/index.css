@@ -4,12 +4,12 @@
 
 
 body{
-background: #fff;
+background: #000000;
 margin: 0px;
 }
 .title{
   height: 720px;
-  background: #fff;
+  background: #000000;
 }
 
 h1{
@@ -34,9 +34,20 @@ body {
 
 
 #expandable {
+  text-align: center !important;
   position: fixed;
-  font-size: 5vw;
+  font-size: 6vw;
 line-height: 5vw;
+text-align: center;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+margin-left: 430px;
+padding-left: 20px;
+padding-top: 230px;
+display: block;
+/* font-size: 2em; */
+
+font-weight: 400;
 }
 
 h2 {
