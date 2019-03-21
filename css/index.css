@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 body{
 background: #000000;
 }
 h1{
   color: #fff;
-  font-family: "Nitti Grotesk","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h2{
   color: #fff;
-  font-family: "Nitti Grotesk","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 p{
   color: #fff;
-  font-family: "Nitti Grotesk","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
