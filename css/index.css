@@ -12,6 +12,7 @@ h1{
   font-family: 'Roboto', sans-serif;
   font-size: 74px;
   padding-left: 20px;
+  padding-top: 230px;
   display: block;
   /* font-size: 2em; */
   margin-block-start: 0em;
@@ -27,6 +28,8 @@ h2{
 p{
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  font-color: #4f9d85;
+  text-align: center;
 }
 
 h3{
