@@ -107,7 +107,7 @@ h3 {
     position: fixed;
     top: 60%;
   list-style-type: none;
-  opacity: 1;
+  opacity: 0;
   overflow: hidden;
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
