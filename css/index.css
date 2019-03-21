@@ -7,7 +7,12 @@ body{
 background: #000000;
 margin: 0px;
 }
-.title .h1{
+.title{
+  height: 720px;
+  background: #000000;
+}
+
+h1.title {
   text-align: center;
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -22,26 +27,21 @@ margin: 0px;
   margin-inline-end: 0px;
   font-weight: 400;
 }
-.title .h2{
+h2.title {
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
-.title .p{
+p.title {
   color: #4f9d85;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 100;
 }
 
-.title .h3{
+h3.title {
   color: blue;
 }
 
-.title{
-  height: 720px;
-  background: #000000;
-}
 .main{
-
   background-color: white;
 }
