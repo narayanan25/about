@@ -1,0 +1,26 @@
+---
+title: Narayan talks
+---
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Página de prueba<title>
+	</head>
+	<body>
+	  <h1>Hola amiguitos!</h1>
+
+		<h2>{{ page.title }}</h2>
+		<h3>Narayan talks</h3>
+		<ul class="posts">
+
+		  {% for post in site.posts %}
+		    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		  {% endfor %}
+		</ul>
+
+
+	  <footer>gpuma 2017</footer>
+	</body>
+	</html>
